@@ -1,0 +1,7 @@
+{
+  "name": "Copy of EuroTools - Free Online Utility Suite",
+  "description": "A high-performance, SEO-optimized collection of free web utility tools including image compression, PDF handling, word counting, and more. No signup, no tracking, 100% free.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
