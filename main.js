@@ -1,7 +1,7 @@
-console.log("main.js loaded")
+console.log("main.js loaded clean")
 
 const root = document.getElementById("root")
 
 if (root) {
-  root.innerHTML = "JavaScript is working correctly"
+  root.textContent = "Plain JS works. No React."
 }
