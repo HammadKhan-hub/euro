@@ -1,7 +1,10 @@
-console.log("main.js loaded clean")
+const root = document.getElementById("root");
 
-const root = document.getElementById("root")
+const app = React.createElement(
+  "div",
+  null,
+  React.createElement("h1", null, "React 18 UMD Works!"),
+  React.createElement("p", null, "No JSX, works directly in browser")
+);
 
-if (root) {
-  root.textContent = "Plain JS works. No React."
-}
+ReactDOM.createRoot(root).render(app);
